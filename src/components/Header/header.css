@@ -1,0 +1,27 @@
+.h-container{
+    padding: 1rem 0;
+    justify-content: space-between;
+    color: var(--secondary);
+}
+.h-container>p::first-letter{
+font-size: 2.7rem;
+color: var(--blue);
+}
+.h-container>p{
+    color: grey;
+    border: 1.2px solid orange;
+    padding: 2px 15px;
+    border-radius: 10px;
+
+}
+
+.h-wrapper{
+    background-color:var(--black) ;
+    color: white;
+}
+.h-menu{
+    gap: 2rem;
+}
+.h-menu>*:hover{
+    cursor: pointer;
+}
