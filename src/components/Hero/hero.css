@@ -43,13 +43,13 @@ width: 100%;
   color: orange;  
 }
 .orange-circle{
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
     background: var(--orange-gradient);
     border-radius:999px ;
     position: absolute;
-    right: 28%;
-    top:-10% ;
+    right: 27%;
+    top:-1% ;
     z-index: -1;
 }
 .image-container{

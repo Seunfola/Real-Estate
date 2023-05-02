@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <section className='h-wrapper'>
             <div className='flexCenter paddings innerWidth h-container'>
-                <p> Breed's Homes</p>
+                <p> Breed's <b className='Target'>H</b>omes</p>
 
 
                 <div className='flexCenter h-menu'>

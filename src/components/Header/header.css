@@ -7,12 +7,16 @@
 font-size: 2.7rem;
 color: var(--blue);
 }
+.Target{
+  font-size: 2.7rem;
+color: var(--blue); 
+font-weight: normal; 
+}
 .h-container>p{
     color: grey;
-    border: 1.2px solid orange;
-    padding: 2px 15px;
-    border-radius: 10px;
-
+    border: 1.2px solid rgb(153, 162, 245);
+    padding: 1px 19px;
+    border-radius: 25px;
 }
 
 .h-wrapper{

@@ -53,7 +53,7 @@ const Values = () => {
                                     </AccordionItemHeading>
 
                                     <AccordionItemPanel>
-                                        <p className="secondaryText">
+                                        <p className="secondaryText p-details">
                                             {item.detail}
                                         </p>
                                     </AccordionItemPanel>
