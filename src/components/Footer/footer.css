@@ -1,0 +1,36 @@
+.f-container{
+    justify-content: space-between;
+}
+.f-left{
+    gap: 1.5rem;
+}
+.f-left>p{
+    color: grey;
+    border: 1.2px solid rgb(153, 162, 245);
+    padding: 1px 19px;
+    border-radius: 25px;
+    gap: 1rem;
+}
+.f-left>p::first-letter{
+font-size: 2.7rem;
+color: var(--blue);
+}
+.Target{
+  font-size: 2.7rem;
+color: var(--blue); 
+font-weight: normal; 
+}
+.f-left-span{
+    margin-top: 1rem;
+  
+    font-size: 0.7rem;
+}
+.f-right{
+    gap: 1.5rem;
+    margin-top: 1.3rem;
+    font-weight: 500;
+}
+.f-menu{
+    align-items: flex-start;
+    gap: 1rem;
+}
