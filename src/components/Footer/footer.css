@@ -4,12 +4,13 @@
 .f-left{
     gap: 1.5rem;
 }
-.f-left>p{
+.logoText{
     color: grey;
     border: 1.2px solid rgb(153, 162, 245);
     padding: 1px 19px;
     border-radius: 25px;
     gap: 1rem;
+    margin-bottom:1rem ;
 }
 .f-left>p::first-letter{
 font-size: 2.7rem;
@@ -33,4 +34,21 @@ font-weight: normal;
 .f-menu{
     align-items: flex-start;
     gap: 1rem;
+}
+@media (max-width:760px) {
+    .f-container{
+       align-items: center;
+        display: block;
+
+    }
+    .f-left{
+        display: block;
+        margin-bottom: 2rem;
+       
+    }
+    .logoText{
+        width: fit-content;
+        
+    }
+    
 }

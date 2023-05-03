@@ -54,3 +54,29 @@
     color: white;
     scale: 0.8;
 }
+@media(max-width:1024px){
+    .c-container{
+        flex-direction: column;
+    }
+    /* .c-left{
+        width:100%;
+        gap: 0.5rem;
+    } */
+    .row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contactModes{
+        width: 100%;
+    }
+    .c-right{
+        justify-content: center;
+    }
+    .mode{
+        width: 100%;
+    }
+    .image-container{
+        padding: 4rem;
+        justify-content: center;
+    }
+}

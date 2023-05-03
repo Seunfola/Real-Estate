@@ -3,7 +3,7 @@ import { MdCancel, MdAnalytics } from "react-icons/md";
 const data = [
   {
     icon: <HiShieldCheck />,
-    heading: "Market Interest Best Rates",
+    heading: "Best Interest Rates",
     detail:
       "Overall, the market rate for housing and property can be very volatile and subject to sudden changes, making it important to consult with a local expert or real estate professional for the most up-to-date information on market rates in a particular area, and we can tell you ours is the best you can get.",
   },

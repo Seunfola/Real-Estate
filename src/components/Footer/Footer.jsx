@@ -6,7 +6,7 @@ const Footer = () => {
         <section className='f-wrapper'>
             <div className='paddings innerWidth flexCenter f-container'>
                 <div className='f-left'>
-                    <p>Breed's<b className='Target'>H</b> ome</p>
+                    <p className='logoText'>Breed's<b className='Target'>H</b> ome</p>
                     <span className='f-left-span'>Our Vision is to make all people <br /> the best place to live</span>
                 </div>
                 <div className='flexColStart f-right'>
