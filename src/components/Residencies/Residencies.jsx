@@ -4,13 +4,6 @@ import 'swiper/css';
 import data from '/src/slider.json';
 import './residencies.css';
 import { sliderSettings } from '../../common.js';
-
-
-
-
-
-
-
 const Residencies = () => {
     return (
         <section className='r-wrapper'>
@@ -30,11 +23,8 @@ const Residencies = () => {
                         data.map((card, i) => (
                             <SwiperSlide key={i}>
                                 <div className='flexColStart r-card'>
-
                                     <img src={card.image} />
-
                                     <span className='secondaryText r-price'>
-
                                         <span style={{
                                             color: "orange"
                                         }}>
@@ -44,20 +34,20 @@ const Residencies = () => {
                                             {card.price}
                                         </span>
                                     </span>
-                                    <span className='primaryText'>{card.name}</span>
-                                    <span className='secondaryText'>{card.detail}</span>
-
-
+                                    <span className='primaryText'>
+                                        {card.name}
+                                        </span>
+                                    <span className='secondaryText'>
+                                        {card.detail}
+                                        </span>
                                 </div>
                             </SwiperSlide>)
-
                         )
                     }
                 </Swiper>
             </div>
         </section>
     );
-
 };
 export default Residencies;
 const SliderButtons = () => {
@@ -73,4 +63,3 @@ const SliderButtons = () => {
         </div>
     );
 };
-// export default SliderButtons

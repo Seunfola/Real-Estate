@@ -14,7 +14,6 @@ const Started = () => {
                         </a>
                     </button>
                 </div>
-
             </div>
 
         </section>

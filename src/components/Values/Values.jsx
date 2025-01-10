@@ -60,9 +60,6 @@ const Values = () => {
                                 </AccordionItem>
                             );
                         })}
-
-
-
                     </Accordion>
                 </div>
             </div>

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './header.css';
-import logo from '../../public/logo.png';
 import { BiAlignJustify } from 'react-icons/bi';
 import OutsideClickHandler from 'react-outside-click-handler';
 
