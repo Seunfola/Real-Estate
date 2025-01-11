@@ -1,7 +1,50 @@
-.c-container{
-    justify-content: space-around;
-    gap: 1rem;
+/* Wrapper section for the companies */
+.c-wrapper {
+  background-color: #f9f9f9; 
+  padding: 2rem 0;
 }
-.c-container>img{
-    width: 9rem;
+
+.c-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Images within the container */
+.c-container > img {
+  width: 9rem; 
+  height: auto; 
+  object-fit: contain;
+  transition: transform 0.3s ease; 
+}
+
+.c-container > img:hover {
+  transform: scale(1.1); 
+  cursor: pointer; 
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+  .c-container {
+    gap: 0.5rem; 
+  }
+
+  .c-container > img {
+    width: 7rem; 
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .c-container {
+    justify-content: center; 
+  }
+
+  .c-container > img {
+    width: 5rem; 
+  }
 }
