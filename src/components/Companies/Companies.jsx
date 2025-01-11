@@ -1,22 +1,24 @@
 import React from 'react';
 import './companies.css';
-import prologis from '../../public/prologis.png'
-import tower from '../../public/tower.png'
-import equinix from '../../public/equinix.png'
-import realty from '../../public/realty.png'
+
+// Consolidate image imports into a single object
+const companyLogos = [
+  { src: require('../../public/prologis.png'), alt: 'Prologis' },
+  { src: require('../../public/tower.png'), alt: 'Tower' },
+  { src: require('../../public/equinix.png'), alt: 'Equinix' },
+  { src: require('../../public/realty.png'), alt: 'Realty' },
+];
 
 const Companies = () => {
-    return (
-        <section className='c-wrapper'>
-            <div className='paddings innerWidth flexCenter c-container'>
-                <img src={prologis} alt='prologis' />
-                <img src={tower} alt='tower' />
-                <img src={equinix} alt='equinix' />
-                <img src={realty} alt='realty' />
-            </div>
+  return (
+    <section className='c-wrapper'>
+      <div className='paddings innerWidth flexCenter c-container'>
+        {companyLogos.map((logo, index) => (
+          <img key={index} src={logo.src} alt={logo.alt} />
+        ))}
+      </div>
+    </section>
+  );
+};
 
-        </section>
-    )
-}
-
-export default Companies
+export default Companies;
